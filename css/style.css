@@ -1,7 +1,5 @@
 body {
     background: black;
-    margin: 0;
-    padding: 0;
     min-height: 100vh;
     margin-left: 100px;
 }
@@ -32,8 +30,6 @@ header {
     height: 300px;
     color: white;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
     margin-left: 500px;
 }
 
@@ -98,7 +94,6 @@ li {
 
 .imagegrid {
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
     gap: 2px;
     margin-left: 100px;
     gap: 0px;
