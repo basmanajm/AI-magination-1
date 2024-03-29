@@ -21,7 +21,7 @@ aside {
 main {
     background-color: black;
     height: 100vh;
-    width: 200vh;
+    width: 300px;
     color: white;
     display: flex;
     flex: 1;
@@ -54,8 +54,12 @@ footer {
     margin-left: 1vw;
     display: block;
     margin-top: 700px;
-    margin-left: -900px;
-    ;
+    margin-left: -400px;
+}
+
+h6 {
+    display: flex;
+    gap: 1px;
 }
 
 h1 {
@@ -103,6 +107,7 @@ li {
 #post1 {
     width: 200px;
     height: 200px;
+    margin-left: -40px;
 }
 
 #post2 {
