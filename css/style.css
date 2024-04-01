@@ -1,108 +1,178 @@
 body {
-    background: black;
-    min-height: 100vh;
-    margin-left: 100px;
+    margin-left: 20vw;
+    background-color: black;
+    font-family: sans-serif;
 }
 
 aside {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    width: 250px;
     position: fixed;
-    display: flex;
-    height: 90%;
-    flex: 1;
-    margin-left: -90px;
-}
-
-main {
-    background-color: black;
+    left: 0;
+    top: 0;
+    width: 20vw;
     height: 100vh;
-    width: 300px;
-    color: white;
+    background-color: black;
     display: flex;
-    flex: 1;
-}
-
-header {
-    background-color: black;
-    height: 300px;
-    color: white;
-    padding: 10px;
-    margin-left: 500px;
-}
-
-section {
-    background-color: black;
-    height: 430px;
-    color: white;
-    display: block;
-    flex: 1;
-    margin-top: 300px;
-    margin-left: -680px;
-}
-
-footer {
-    background-color: black;
-    height: 60px;
-    color: #333;
-    margin-left: 1vw;
-    display: block;
-    margin-top: 700px;
-    margin-left: -400px;
-}
-
-h6 {
-    display: flex;
-    gap: 1px;
+    flex-direction: column;
 }
 
 h1 {
-    margin-left: 5px;
+    color: white;
+    margin-left: 40px;
 }
 
 ul {
+    color: white;
     list-style-type: none;
-    margin-left: -130px;
-    margin-top: 40px;
 }
 
-li {
-    margin: 20px;
-    padding-right: 50px;
+.menu li {
+    padding: 10px;
+    cursor: pointer;
 }
 
-.menu {
-    gap: 10px;
+.espace {
+    margin-top: 10vw;
 }
 
-.e {
-    height: 150px;
+.espace li {
+    padding: 10px;
+    cursor: pointer;
 }
 
-.profile {
-    background-image: url("profile");
-    background-size: cover;
+.nav-item {
+    color: white;
+    margin-left: 10px;
+}
+
+.ligne1 {
+    border-left: 1px solid #181719;
+    height: 131vh;
+    top: 0;
+    margin-left: 18vw;
+    position: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    color: white;
+    align-items: center;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.bio {
+    position: relative;
+    display: inline-flex;
+    margin-top: 23px;
+    margin-left: 180px;
+    gap: 6px;
+}
+
+.bio img {
+    margin-bottom: 5px;
+}
+
+#nom {
+    font-size: large;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #4b4a49;
+    margin-top: 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+.edit {
+    margin-left: 10px;
+}
+
+.followers {
+    margin-left: 180px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.new {
+    background-color: rgb(29, 28, 28);
+    border: 1px solid gray;
     border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.cercl {
+    display: flex;
+    margin-left: 2px;
+    margin-top: 80px;
+    cursor: pointer;
+    position: relative;
+}
+
+.plus {
+    transform: translate(30%, 15%);
+}
+
+.nv {
+    margin-top: 60px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.info .image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.posts {
+    color: white;
+    height: 90vh;
+    margin-left: 40px;
+}
+
+.ligne2 {
+    border-top: 2px solid #181719;
+    margin-top: 35px;
+    margin-left: 1px;
+    width: 535px;
+}
+
+.ligne3 {
+    border-top: 2px solid #dbd7d7;
+    width: 50px;
+    margin-left: 70px;
 }
 
 .composants {
-    margin-left: 250px;
-    padding: 10px;
+    margin-left: 70px;
+    margin-top: 12px;
+    display: inline-flex;
+    gap: 15px;
+    color: #837F74;
+    cursor: pointer;
 }
 
-.imagegrid {
-    display: flex;
-    gap: 2px;
-    margin-left: 100px;
-    gap: 0px;
+.composant1 {
+    color: white;
+}
+
+.publi {
+    margin-top: 15px;
 }
 
 #post1 {
     width: 200px;
     height: 200px;
-    margin-left: -40px;
 }
 
 #post2 {
@@ -111,109 +181,19 @@ li {
 }
 
 #profil {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50px;
-}
-
-.description {
-    display: flex;
-    gap: 20px;
-    margin-left: 10px;
-    margin-top: -12px;
 }
 
 .description2 {
     display: flex;
-    gap: 4px;
-    margin-left: 200px;
-    margin-top: -30px;
-}
-
-#image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50px;
-    margin-left: 70px;
-    margin-top: 20px;
-}
-
-.profile {
-    display: flex;
-    gap: 40px;
-}
-
-.edit {
-    display: flex;
-    background-color: grey;
-    height: 30px;
-    border-radius: 5px;
-    width: 100px;
-    padding: 5px 17px;
-    color: white;
-}
-
-.archive {
-    display: flex;
-    background-color: grey;
-    height: 30px;
-    border-radius: 5px;
-    width: 100px;
-    padding: 5px 10px;
-    color: white;
-}
-
-.modification {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-
-.nom {
-    margin-top: 35px;
-}
-
-.followers {
-    display: flex;
-    gap: 30px;
-    margin-left: 220px;
-    margin-top: -40px;
-}
-
-.nv {
-    margin-top: 0px;
-    margin-left: 55px;
-}
-
-.new {
-    background-color: rgb(29, 28, 28);
-    border: 1px solid gray;
-    padding: 2px;
-    border-radius: 50%;
-    margin-left: -700px;
-    margin-top: -30px;
-    height: 70px;
-    width: 70px;
-}
-
-.cercl {
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-left: 207px;
-    margin-top: 40px;
-    cursor: pointer;
+    gap: 8px;
 }
 
-.plus {
-    top: 224px;
-    padding-left: 72px;
-    padding-top: 71px;
-    transform: translate(-50%, -50%);
-}
-
-.ligne {
-    border-top: 2px solid white;
-    width: 58px;
-    margin-left: 15vw;
+footer {
+    color: #837F74;
+    font-size: xx-small;
 }
