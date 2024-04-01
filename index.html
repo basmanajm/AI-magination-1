@@ -2,111 +2,101 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIgram</title>
+    <link rel="stylesheet" href="css/style.css" />
 
-    <head charset="utf-8">
-        <title>title</title>
-        <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    </head>
+<body>
+    <aside>
+        <h1>AIgram</h1>
+        <ul class="menu">
 
-    <body>
-        <aside>
-            <h1>AIgram</h1>
-            <ul class="menu">
-                <li><img src="images/home.svg"> Home</li>
-                <li><img src="images/search.svg">search</li>
-                <li><img src="images/explore.svg">explore</li>
-                <li><img src="images/reels.svg"> Reels</li>
-                <li><img src="images/message.svg">Messages</li>
-                <li><img src="images/notification.svg">Notification</li>
-                <li><img src="images/creat.svg">create</li>
-                <li><img src="images/profile.jpeg" id="profil"> profile</li>
-                <div class="e">
+            <li><img src="images/home.svg"> <span class="nav-item">Home</span></li>
+            <li><img src="images/search.svg"> <span class="nav-item">search</span></li>
+            <li><img src="images/explore.svg"> <span class="nav-item">explore</span></li>
+            <li><img src="images/reels.svg"> <span class="nav-item"></span>Reels</li>
+            <li><img src="images/message.svg"><span class="nav-item">Messages</span></li>
+            <li><img src="images/notification.svg"><span class="nav-item">Notification</span></li>
+            <li><img src="images/creat.svg"><span class="nav-item">create</span></li>
+            <li><img src="images/profile.jpeg" id="profil"> <span class="nav-item">profile</span></li>
+        </ul>
+        <ul class="espace">
+            <li><img src="images/threads.svg"><span class="nav-item">threads</span></li>
+            <li><img src="images/more.svg"><span class="nav-item">more</span></li>
+        </ul>
+        <div class="ligne1"></div>
+    </aside>
+    <main class="content">
 
+        <header>
+            <div class="info">
+
+
+                <div class="image">
+                    <img src="images/profile.jpeg">
                 </div>
-                <li><img src="images/threads.svg">threads</li>
-                <li><img src="images/more.svg">more</li>
-            </ul>
-        </aside>
 
-        <main>
-            <header>
-                <div class="profile">
-                    <img src="images/profile.jpeg" id="image">
-
-
-                    <div class="nom">
-                        <h2>basma23</h2>
-                    </div>
-                    <div class="modification">
-                        <button class="edit">
-                            edit profile
+                <div class="bio">
+                    <p id="nom">basma23</p>
+                    <button class="edit">
+                        edit profile
                         </button>
-                        <button class="archive">
-                            view archive
+                    <button class="archive">
+                         view archive
                         </button>
-                    </div>
-
                     <img src="images/parametre.svg">
                 </div>
                 <div class="followers">
                     <p>2posts</p>
                     <p>3followers</p>
-                    <p>30following</p>
+                    <p>30following </p>
                 </div>
-                <div class="cercl">
-                    <div class="new">
-                        <img src="images/plus.svg" class="plus">
-                    </div>
+            </div>
+            <div class="cercl">
+                <div class="new">
+                    <img src="images/plus.svg" class="plus">
 
                 </div>
                 <p class="nv">new</p>
+            </div>
 
-                <div class="ligne"></div>
 
-            </header>
-            <section>
-                <div class="composants">
-                    <img src="images/post.svg">post
-                    <img src="images/save.svg"> save
-                    <img src="images/tagged.svg"> tagged
-                </div>
 
-                <div class="imagegrid">
-                    <img src="images/post1.jpeg" id="post1" alt="AI" />
-                    <img src="images/post2.jpeg" id="post2" alt="ai" />
-                </div>
-            </section>
-            <footer>
-                <div class="description">
-                    <h6>Meta </h6>
-                    <h6>About </h6>
-                    <h6> Blog </h6>
-                    <h6> Jobs </h6>
-                    <h6> Help </h6>
-                    <h6> Api </h6>
-                    <h6> Privacy </h6>
-                    <h6> Terms </h6>
-                    <h6> Locations </h6>
-                    <h6>AIgram</h6>
-                    <h6> Lite </h6>
-                    <h6> Threads </h6>
-                    <h6>Contact </h6>
-                    <h6>Uploading&</h6>
-                    <h6>Non</h6>
-                    <h6> Uses</h6>
-                    <h6> Meta</h6>
-                    <h6> verified </h6>
-                </div>
+        </header>
+
+        <section class="posts">
+            <div class="ligne2"></div>
+            <div class="ligne3"></div>
+            <div class="composants">
+                <img src="images/post.svg"><span class="composant1">post</span>
+                <img src="images/save.svg"> save
+                <img src="images/tagged.svg"> tagged
+            </div>
+            <div class="publi">
+
+                <img src="images/post1.jpeg" id="post1">
+                <img src="images/post2.jpeg" id="post2">
+            </div>
+        </section>
+
+        <footer>
+            <div class="descriotion">
+
+                <p>
+                    Meta About Blog Jobs Help Api Privacy Terms Locations AIgram Lite Threads Contact Uploading & Non Uses Meta verified
+                </p>
                 <div class="description2">
-                    <h6>English</h6>
+                    <p>English</p>
                     <img src="images/english.svg">
                     <img src="images/c.svg">
-                    <h6>2024 AIgram from Meta</h6>
+                    <p>2024 AIgram from Meta</p>
                 </div>
-            </footer>
-        </main>
-
-    </body>
+            </div>
+        </footer>
+    </main>
+</body>
 
 </html>
